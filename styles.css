@@ -1,0 +1,27 @@
+body{
+    font-family: 'Roboto Slab', serif;
+}
+nav{
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+.greetings{
+    display: flex;
+    width: 700px;
+    align-items: center;
+    color: #272727;
+font-size: 80px;
+font-weight: 800;
+}
+.web-dscrpt{
+    display: flex;
+width: 600px;
+color: rgba(39, 39, 39, 0.60);
+font-weight: 400;
+}
+.header{
+ background: rgba(229, 84, 115, 0.10);
+ width: 1920px;
+ height: 720px;
+}
