@@ -151,7 +151,17 @@ body {
     width: 320;
     margin-right: 400px;
 }
+.sign-up-btn{
+    border-radius: 8px;
+    display: flex;
+    padding: 20px 40px;
+    border: 1px solid #000;
+    background: #E55473;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
 
+}
 .insta{
     color: #272727;
     text-align: center;
@@ -164,6 +174,28 @@ body {
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+    
+}
+
+.insta-img-section{
     display: flex;
+    gap: 30px;
     align-items: center;
+    justify-content: space-around;
+}
+.insta-img1{
+width: 340px;
+height: 390px;
+}
+.insta-img2{
+    width: 340px;
+    height: 390px;
+}
+.insta-img3{
+    width: 340px;
+height: 390px;
+}
+.insta-img4{
+    width: 340px;
+height: 390px;
 }
