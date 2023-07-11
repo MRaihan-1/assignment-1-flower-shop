@@ -1,27 +1,54 @@
-body{
+body {
     font-family: 'Roboto Slab', serif;
 }
-nav{
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 200px;
-}
-.greetings{
+
+
+.greetings {
     display: flex;
     width: 700px;
     align-items: center;
     color: #272727;
-font-size: 80px;
-font-weight: 800;
+    font-size: 80px;
+    font-weight: 800;
 }
-.web-dscrpt{
+
+.web-dscrpt {
     display: flex;
-width: 600px;
-color: rgba(39, 39, 39, 0.60);
-font-weight: 400;
+    width: 600px;
+    color: rgba(26, 26, 26, 0.6);
+    font-weight: 400;
 }
-.header{
- background: rgba(229, 84, 115, 0.10);
- width: 1920px;
- height: 720px;
+
+.header {
+    background: rgba(229, 84, 115, 0.10);
+    width: 1920px;
+    height: 720px;
+}
+
+.shop-btn {
+    border-radius: 8px;
+    display: inline-flex;
+    padding: 20px 40px;
+    border: 1px solid #000;
+    background: #E55473;
+    color: white;
+    gap: 10px;
+
+}
+
+.dot-remove{
+    list-style: none;
+}
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.banner-content{
+    
+}
+.first-pic {
+    width: 500px;
+   height: 500px;
 }
