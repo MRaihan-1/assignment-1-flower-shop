@@ -27,92 +27,143 @@ body {
 
 .shop-btn {
     border-radius: 8px;
-    display: inline-flex;
+    display: flex;
     padding: 20px 40px;
     border: 1px solid #000;
     background: #E55473;
     color: white;
     gap: 10px;
+    justify-content: space-between;
 
 }
 
-.dot-remove{
+.dot-remove {
     list-style: none;
 }
+
 .banner {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    
-}
-.banner-content{
-    
-}
-.first-pic {
-    width: 650px;
-   height: 720px;
+    justify-content: space-around;
+
 }
 
-.featured-title{
+.first-pic {
+    width: 650px;
+    height: 720px;
+}
+
+.featured-title {
     color: black;
     text-align: center;
     font-size: 50px;
     font-weight: 800;
 }
-.featured-dscrpt{
+
+.featured-dscrpt {
     text-align: center;
     font-size: 15px;
     color: rgba(39, 39, 39, 0.60);
-width: 50%;
-margin: auto;
+    width: 50%;
+    margin: auto;
 }
 
-.flower-section{
+.flower-section {
     display: flex;
     gap: 30px;
     text-align: center;
     align-items: center;
     margin-right: 50px;
+    justify-content: space-around;
 }
-.flower1{
+
+.flower1 {
     width: 460px;
     height: 470px;
     border-radius: 300px 300px 0px 0px;
-background: rgba(167, 33, 98, 0.15);
+    background: rgba(167, 33, 98, 0.15);
 
 }
-.ftrd-1{
+
+.ftrd-1 {
     width: 350px;
     height: 450px;
     padding: 20px 20px 20px 20px;
 }
 
-.flower2{
-width: 460px;
-height: 470px;
-border-radius: 300px 300px 0px 0px;
-background: rgba(5,151,160,0.15);
+.flower2 {
+    width: 460px;
+    height: 470px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
 }
-.ftrd-2{
+
+.ftrd-2 {
     width: 370px;
     height: 370px;
     padding: 20px 20px 20px 20px;
 }
 
-.flower3{
+.flower3 {
     width: 460px;
-height: 470px;
-border-radius: 300px 300px 0px 0px;
-background: rgba(71,125,17,0.15);
-}
-.ftrd-3{
-width: 300px;
-height: 464px;
-padding: 5px 5px 5px 5px;
+    height: 470px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
 }
 
-.info-container{
-    border: 8px;
-    width: 1440px;
-    height: 320px;
+.ftrd-3 {
+    width: 300px;
+    height: 464px;
+    padding: 5px 5px 5px 5px;
+}
+
+.attraction {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1920px;
+    height: 620px;
+}
+
+.off {
+    color: #E55473;
+}
+
+.discount-title {
+    color: #272727;
+    display: flex;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.discount-dscrpt {
+    color: rgba(39, 39, 39, 0.6);
+    width: 590px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.discount-pic {
+    height: 420px;
+    width: 320;
+    margin-right: 400px;
+}
+
+.insta{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.insta-dscrpt{
+    color: rgba(39, 39, 39, 0.6);
+    width: 590px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
 }
