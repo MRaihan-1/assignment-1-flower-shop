@@ -151,7 +151,8 @@ body {
     width: 320;
     margin-right: 400px;
 }
-.sign-up-btn{
+
+.sign-up-btn {
     border-radius: 8px;
     display: flex;
     padding: 20px 40px;
@@ -162,40 +163,119 @@ body {
     align-items: center;
 
 }
-.insta{
+
+.insta {
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
 }
-.insta-dscrpt{
+
+.insta-dscrpt {
     color: rgba(39, 39, 39, 0.6);
     width: 590px;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    
+
 }
 
-.insta-img-section{
+.insta-img-section {
     display: flex;
     gap: 30px;
     align-items: center;
     justify-content: space-around;
 }
-.insta-img1{
-width: 340px;
-height: 390px;
-}
-.insta-img2{
+
+.insta-img1 {
     width: 340px;
     height: 390px;
 }
-.insta-img3{
+
+.insta-img2 {
     width: 340px;
-height: 390px;
+    height: 390px;
 }
-.insta-img4{
+
+.insta-img3 {
     width: 340px;
-height: 390px;
+    height: 390px;
 }
+
+.insta-img4 {
+    width: 340px;
+    height: 390px;
+}
+
+
+.coupon-parent {
+    background-image: url(images/Rectangle\ 9.png);
+    width: 1440px;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.latest-deals {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.coupon{
+    text-align: center;
+    justify-content: space-between;
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.subscribe{
+    border-radius: 8px;
+    display: flex;
+    padding: 20px 40px;
+    border: 1px solid #000;
+    background: #E55473;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.enter-email{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.email input[type="text"], textarea{
+    background-color: white;
+width: 700px;
+height: 65px;
+}
+
+.flower-shop{
+width: 1922px;
+height: 450px;
+background: black;
+}
+.reader{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+
+}
+.reader-dscrpt{
+    color: white;
+    
+    text-align: center;
+}
+.flpink{
+    color: #E55473;
+}
+.shwhite{
+    color: white;
+}
+
+   
