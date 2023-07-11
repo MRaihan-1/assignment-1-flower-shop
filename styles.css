@@ -49,8 +49,8 @@ body {
     
 }
 .first-pic {
-    width: 500px;
-   height: 500px;
+    width: 650px;
+   height: 720px;
 }
 
 .featured-title{
@@ -63,5 +63,56 @@ body {
     text-align: center;
     font-size: 15px;
     color: rgba(39, 39, 39, 0.60);
+width: 50%;
+margin: auto;
+}
 
+.flower-section{
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+    margin-right: 50px;
+}
+.flower1{
+    width: 460px;
+    height: 470px;
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+
+}
+.ftrd-1{
+    width: 350px;
+    height: 450px;
+    padding: 20px 20px 20px 20px;
+}
+
+.flower2{
+width: 460px;
+height: 470px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(5,151,160,0.15);
+}
+.ftrd-2{
+    width: 370px;
+    height: 370px;
+    padding: 20px 20px 20px 20px;
+}
+
+.flower3{
+    width: 460px;
+height: 470px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(71,125,17,0.15);
+}
+.ftrd-3{
+width: 300px;
+height: 464px;
+padding: 5px 5px 5px 5px;
+}
+
+.info-container{
+    border: 8px;
+    width: 1440px;
+    height: 320px;
 }
