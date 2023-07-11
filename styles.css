@@ -52,3 +52,16 @@ body {
     width: 500px;
    height: 500px;
 }
+
+.featured-title{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+}
+.featured-dscrpt{
+    text-align: center;
+    font-size: 15px;
+    color: rgba(39, 39, 39, 0.60);
+
+}
