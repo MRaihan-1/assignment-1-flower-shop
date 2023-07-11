@@ -64,7 +64,7 @@ body {
     text-align: center;
     font-size: 15px;
     color: rgba(39, 39, 39, 0.60);
-    width: 50%;
+    width: 594px;
     margin: auto;
 }
 
@@ -82,7 +82,6 @@ body {
     height: 470px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-
 }
 
 .ftrd-1 {
@@ -173,11 +172,11 @@ body {
 
 .insta-dscrpt {
     color: rgba(39, 39, 39, 0.6);
-    width: 590px;
+    width: 594px;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-
+margin: auto;
 }
 
 .insta-img-section {
@@ -259,6 +258,7 @@ height: 65px;
 width: 1922px;
 height: 450px;
 background: black;
+padding: 70px;
 }
 .reader{
     text-align: center;
@@ -268,8 +268,11 @@ background: black;
 }
 .reader-dscrpt{
     color: white;
-    
+    font-size: 18px;
     text-align: center;
+    font-weight: 400;
+    margin: auto;
+    width: 625px;
 }
 .flpink{
     color: #E55473;
@@ -278,4 +281,9 @@ background: black;
     color: white;
 }
 
+.shop-web{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.40);
+font-size: 16px;
+}
    
